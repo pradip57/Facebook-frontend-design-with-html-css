@@ -158,3 +158,38 @@ body{
     display: flex;
 }
 
+@media only screen and (max-width: 768px) {
+ 
+    
+    
+    .facebook{
+        position: absolute;
+        left: 7%;
+        font-size: 53px;
+        font-weight: 700;
+        
+        top: 21%;
+    }
+
+    .connect{
+        position: absolute;
+        left : 7%;
+        top: 32% ;
+        font-size: 15px;
+    
+    }
+
+    .loginform{
+
+        height: 330px;
+        width: 350px;
+        background-color: white;
+        position: absolute;
+        top: 15%;
+        left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 13px;
+    
+    }
+}
+
